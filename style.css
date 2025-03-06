@@ -434,3 +434,18 @@ footer {
 footer p {
   text-align: center;
 }
+
+#projects{
+  overflow-x: auto;
+}
+#projects::-webkit-scrollbar{
+  display: none;
+}
+
+#projects .details-container{
+  margin-right: 20px;
+}
+
+.myprojects{
+  width: 100vw;
+}
