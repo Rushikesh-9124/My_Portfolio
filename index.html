@@ -225,7 +225,7 @@
         onclick="location.href='./#projects'"
       />
     </section>
-    <section id="projects">
+    <section id="projects" class="my-projects">
       <p class="section__text__p1">Browse My Recent</p>
       <h1 class="title">Projects</h1>
       <div class="experience-details-container">
@@ -233,8 +233,35 @@
           <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="data:image/png;base64,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"
+                src="https://cdn-icons-png.flaticon.com/512/2504/2504929.png"
                 alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title"><span class="nowrap">Netflix</span> Clone</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/Rushikesh-9124/Netflix-clone', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://democlone-of-netfli.netlify.app/', '_blank')"
+
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="data:image/png;base64,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"
+                alt="Project 2"
                 class="project-img"
               />
             </div>
@@ -259,7 +286,7 @@
             <div class="article-container">
               <img
                 src="https://www.pngall.com/wp-content/uploads/15/Music-Player-PNG-Image.png"
-                alt="Project 1"
+                alt="Project 3"
                 class="project-img"
               />
             </div>
@@ -284,7 +311,7 @@
             <div class="article-container">
               <img
                 src="https://pbs.twimg.com/profile_images/1683508943228731394/Wyjsoi11_400x400.jpg"
-                alt="Project 1"
+                alt="Project 4"
                 class="project-img"
               />
             </div>
@@ -309,7 +336,7 @@
             <div class="article-container">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/3845/3845731.png"
-                alt="Project 1"
+                alt="Project 5"
                 class="project-img"
               />
             </div>
@@ -335,7 +362,7 @@
             <div class="article-container">
               <img
                 src="https://i.pinimg.com/474x/e9/f3/2c/e9f32ccbcfa68b1d2ab132d31e1c8cfc.jpg"
-                alt="Project 2"
+                alt="Project 6"
                 class="project-img" 
               />
             </div>
@@ -360,7 +387,7 @@
             <div class="article-container">
               <img
                 src="https://cdn-icons-png.flaticon.com/512/7692/7692809.png"
-                alt="Project 3"
+                alt="Project 7"
                 class="project-img"
               />
             </div>
@@ -397,7 +424,8 @@
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
-                <p><a href="mailto:rushikesh6281@gmail.com">E-Mail</a></p>
+                <p><a href="mailto:rushikesh6281@gmail.com">E-Mail&nbsp;&nbsp;</a></p>
+                
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="Linkedin icon" class="icon contact-icon">
